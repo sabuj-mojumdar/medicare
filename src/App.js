@@ -12,7 +12,6 @@ import TopHeader from './Components/TopHeader/TopHeader';
 import Footer from './Components/Footer/Footer';
 import AuthProvider from './Components/Context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
-import Service from './Pages/Home/Services/Service/Service';
 import SingleService from './Pages/SingleService/SingleService';
 import Blogs from './Pages/Home/Blogs/Blogs';
 import AllServices from './Pages/AllServices/AllServices';
@@ -35,9 +34,6 @@ function App() {
             </Route>
             <PrivateRoute path="/allmedicine">
               <AllMedicines />
-            </PrivateRoute>
-            <PrivateRoute path="/service/:serviceTitle">
-              <Service />
             </PrivateRoute>
             <Route path="/onlinedoctor">
               <OnlineDoctor />
