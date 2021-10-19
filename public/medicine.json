@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Azyth 500",
+        "type": "Tablet",
+        "company": "Sandoz Bangladesh Limited.",
+        "price": "52.73",
+        "prevPrice": "55.50",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Moxaclav 625",
+        "type": "Tablet",
+        "company": "Square Pharmaceuticals Limited.",
+        "price": "30.40",
+        "prevPrice": "32.00",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Azyth 500",
+        "type": "Tablet",
+        "company": "Sandoz Bangladesh Limited.",
+        "price": "52.73",
+        "prevPrice": "55.50",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Azyth 500",
+        "type": "Tablet",
+        "company": "Sandoz Bangladesh Limited.",
+        "price": "52.73",
+        "prevPrice": "55.50",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Azyth 500",
+        "type": "Tablet",
+        "company": "Sandoz Bangladesh Limited.",
+        "price": "52.73",
+        "prevPrice": "55.50",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Azyth 500",
+        "type": "Tablet",
+        "company": "Sandoz Bangladesh Limited.",
+        "price": "52.73",
+        "prevPrice": "55.50",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p6.webp"
+    },
+    {
+        "id": 7,
+        "name": "Azyth 500",
+        "type": "Tablet",
+        "company": "Sandoz Bangladesh Limited.",
+        "price": "52.73",
+        "prevPrice": "55.50",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/prescription/p7.webp"
+    }
+]

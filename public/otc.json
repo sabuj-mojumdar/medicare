@@ -1,0 +1,464 @@
+[
+    {
+        "catiId": 1,
+        "name": "Eczema",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/OTC%20Medicine/otc2.webp",
+        "medicines": [
+            {
+                "id": 1,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 2,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 3,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 4,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 5,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 6,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 7,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 8,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 9,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 10,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            }
+        ]
+    },
+    {
+        "catiId": 2,
+        "name": "Nasal",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/OTC%20Medicine/otc3.webp",
+        "medicines": [
+            {
+                "id": 1,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 2,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 3,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 4,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 5,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 6,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 7,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 8,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 9,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 10,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            }
+        ]
+    },
+    {
+        "catiId": 3,
+        "name": "Gastric",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/OTC%20Medicine/otc4.png",
+        "medicines": [
+            {
+                "id": 1,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 2,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 3,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 4,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 5,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 6,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 7,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 8,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 9,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 10,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            }
+        ]
+    },
+    {
+        "catiId": 4,
+        "name": "Zinc Deficiency",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/OTC%20Medicine/otc5.png",
+        "medicines": [
+            {
+                "id": 1,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 2,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 3,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 4,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 5,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 6,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 7,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 8,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 9,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 10,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            }
+        ]
+    },
+    {
+        "catiId": 5,
+        "name": "Spasm",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/OTC%20Medicine/otc6.png",
+        "medicines": [
+            {
+                "id": 1,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 2,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 3,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 4,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 5,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 6,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 7,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 8,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 9,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 10,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            }
+        ]
+    },
+    {
+        "catiId": 6,
+        "name": "Diarrhea",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/OTC%20Medicine/otc7.webp",
+        "medicines": [
+            {
+                "id": 1,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 2,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 3,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 4,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 5,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 6,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 7,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 8,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 9,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            },
+            {
+                "id": 10,
+                "title": "Neocort",
+                "company": "The IBN SINA Pharmaceutical Industry Ltd",
+                "price": 17.60,
+                "prevPrice": 18.53
+            }
+        ]
+    }
+]

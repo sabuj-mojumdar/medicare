@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Eye Care",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat voluptate ea quaerat excepturi laboriosam fugiat aut ipsa blanditiis impedit nemo, officiis eveniet non et beatae omnis, quo neque, nostrum id? Pariatur repudiandae, hic autem rem molestias quos laboriosam illo commodi eligendi? Inventore molestiae odit dignissimos dolor numquam iure quos suscipit! Error velit itaque incidunt fugit repellendus culpa doloribus impedit suscipit optio dolor, porro ullam maxime, odit aut numquam. Quaerat blanditiis deserunt dolores iste pariatur tempore voluptatum repellendus quibusdam aperiam consequuntur, sit nesciunt voluptatibus ipsum maxime laudantium! Optio quis aperiam facere nostrum, non facilis similique minus ipsa, provident veritatis mollitia.",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/services/eye-care.png"
+    },
+    {
+        "id": 2,
+        "title": "Medicine",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat voluptate ea quaerat excepturi laboriosam fugiat aut ipsa blanditiis impedit nemo, officiis eveniet non et beatae omnis, quo neque, nostrum id? Pariatur repudiandae, hic autem rem molestias quos laboriosam illo commodi eligendi? Inventore molestiae odit dignissimos dolor numquam iure quos suscipit! Error velit itaque incidunt fugit repellendus culpa doloribus impedit suscipit optio dolor, porro ullam maxime, odit aut numquam. Quaerat blanditiis deserunt dolores iste pariatur tempore voluptatum repellendus quibusdam aperiam consequuntur, sit nesciunt voluptatibus ipsum maxime laudantium! Optio quis aperiam facere nostrum, non facilis similique minus ipsa, provident veritatis mollitia.",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/services/medicine.png"
+    },
+    {
+        "id": 3,
+        "title": "Cardiology",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat voluptate ea quaerat excepturi laboriosam fugiat aut ipsa blanditiis impedit nemo, officiis eveniet non et beatae omnis, quo neque, nostrum id? Pariatur repudiandae, hic autem rem molestias quos laboriosam illo commodi eligendi? Inventore molestiae odit dignissimos dolor numquam iure quos suscipit! Error velit itaque incidunt fugit repellendus culpa doloribus impedit suscipit optio dolor, porro ullam maxime, odit aut numquam. Quaerat blanditiis deserunt dolores iste pariatur tempore voluptatum repellendus quibusdam aperiam consequuntur, sit nesciunt voluptatibus ipsum maxime laudantium! Optio quis aperiam facere nostrum, non facilis similique minus ipsa, provident veritatis mollitia.",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/services/cardiology.png"
+    },
+    {
+        "id": 4,
+        "title": "Orthopedic",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat voluptate ea quaerat excepturi laboriosam fugiat aut ipsa blanditiis impedit nemo, officiis eveniet non et beatae omnis, quo neque, nostrum id? Pariatur repudiandae, hic autem rem molestias quos laboriosam illo commodi eligendi? Inventore molestiae odit dignissimos dolor numquam iure quos suscipit! Error velit itaque incidunt fugit repellendus culpa doloribus impedit suscipit optio dolor, porro ullam maxime, odit aut numquam. Quaerat blanditiis deserunt dolores iste pariatur tempore voluptatum repellendus quibusdam aperiam consequuntur, sit nesciunt voluptatibus ipsum maxime laudantium! Optio quis aperiam facere nostrum, non facilis similique minus ipsa, provident veritatis mollitia.",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/services/orthopedic.png"
+    },
+    {
+        "id": 5,
+        "title": "Dental Clinic",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat voluptate ea quaerat excepturi laboriosam fugiat aut ipsa blanditiis impedit nemo, officiis eveniet non et beatae omnis, quo neque, nostrum id? Pariatur repudiandae, hic autem rem molestias quos laboriosam illo commodi eligendi? Inventore molestiae odit dignissimos dolor numquam iure quos suscipit! Error velit itaque incidunt fugit repellendus culpa doloribus impedit suscipit optio dolor, porro ullam maxime, odit aut numquam. Quaerat blanditiis deserunt dolores iste pariatur tempore voluptatum repellendus quibusdam aperiam consequuntur, sit nesciunt voluptatibus ipsum maxime laudantium! Optio quis aperiam facere nostrum, non facilis similique minus ipsa, provident veritatis mollitia.",
+        "img": "https://raw.githubusercontent.com/sabuj-mojumdar/img/main/services/dentalClinic.png"
+    }
+]

@@ -1,0 +1,7 @@
+.sectionLine{
+    width: 80px;
+    background-color: blue;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
