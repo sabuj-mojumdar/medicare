@@ -24,14 +24,14 @@ const Footer = () => {
                         <p>Experience</p>
                         <p>Success Story</p>
                     </Col>
-                    <Col>
+                    <Col className="quickLink">
                         <h3>Quick Links</h3>
                         <div className="underline">   </div>
-                        <p>Who We Are</p>
-                        <p>Our Mission</p>
-                        <p>Awards</p>
-                        <p>Experience</p>
-                        <p>Success Story</p>
+                        <p><Link to="/home">Home</Link></p>
+                        <p><Link to="/allservices">All Services</Link></p>
+                        <p><Link to="/blogs">All Blogs</Link></p>
+                        <p><Link to="/onlinedoctor">Online Doctor</Link> </p>
+                        <p><Link to="/login">Login</Link> </p>
                     </Col>
                     <Col>
                         <h3>Opening Hours</h3>
