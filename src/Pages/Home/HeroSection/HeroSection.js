@@ -18,9 +18,7 @@ const HeroSection = () => {
                     <Carousel.Caption className="text-start text-dark bg-primary text-white w-25 hero-caption p-2">
                         <h2>We Take Care Of Your
                             Healthy Health</h2>
-                        <p>Mimply dummy text of the printing type setting area lead
-                            spsum dolor onsecte dipiscing. Mimply dummy text printing
-                            apsum dolor onsecte dipiscing.</p>
+                        <p>Living a healthier life might seem like a tall order — the nutrition, the exercise, the inner happiness! But having some friendly advice at your disposal. It easier and more fun.</p>
                         <Link to="/allservices">
                             <Button className="btn-light">See all Services</Button>
                         </Link>
@@ -34,11 +32,8 @@ const HeroSection = () => {
                     />
 
                     <Carousel.Caption className="text-start text-dark bg-primary text-white w-25 hero-caption p-2">
-                        <h2>We Take Care Of Your
-                            Healthy Health</h2>
-                        <p>Mimply dummy text of the printing type setting area lead
-                            spsum dolor onsecte dipiscing. Mimply dummy text printing
-                            apsum dolor onsecte dipiscing.</p>
+                        <h2>Full Body Health checkup</h2>
+                        <p>A full body checkup is necessary as it helps you to take necessary steps in prevention  of any potential illness. These comprehensive health checkup packages have proved to be the smartest way</p>
                         <Link to="/allservices">
                             <Button className="btn-light">See all Services</Button>
                         </Link>
@@ -53,10 +48,8 @@ const HeroSection = () => {
 
                     <Carousel.Caption className="text-start text-dark bg-primary text-white w-25 hero-caption p-2">
                         <h2>We Take Care Of Your
-                            Healthy Health</h2>
-                        <p>Mimply dummy text of the printing type setting area lead
-                            spsum dolor onsecte dipiscing. Mimply dummy text printing
-                            apsum dolor onsecte dipiscing.</p>
+                            child Health Carefully</h2>
+                        <p>If you have responsibility for a child, you are responsible for that child’s care and upbringing. You are nearly always liable for the child’s maintenance (financial support). </p>
                         <Link to="/allservices">
                             <Button className="btn-light">See all Services</Button>
                         </Link>

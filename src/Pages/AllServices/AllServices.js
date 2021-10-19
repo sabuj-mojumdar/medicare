@@ -5,7 +5,7 @@ import Service from '../../Pages/Home/Services/Service/Service';
 const AllServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch("./services.json")
+        fetch("https://sabuj-mojumdar.github.io/fakeapidata/services.json")
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);

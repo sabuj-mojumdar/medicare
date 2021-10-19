@@ -51,9 +51,9 @@ function App() {
             <PrivateRoute path="/single_blog">
               <SingleBlog />
             </PrivateRoute>
-            <PrivateRoute path="/blogs">
+            <Route path="/blogs">
               <Blogs />
-            </PrivateRoute>
+            </Route>
             <Route path="/login">
               <Login />
             </Route>
