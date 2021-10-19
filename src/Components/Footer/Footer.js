@@ -10,7 +10,7 @@ const Footer = () => {
                 <Row md={3} lg={4} sm={2} className="border border-top-0 border-start-0 border-end-0">
                     <Col>
                         <Link to="/" className="footer-logo fs-3 fw-bold text-white text-decoration-none p-1">Medicare Hospital</Link>
-                        <p>We are ipsum dolor sit amet aeeatt consectetuer adipiscing elitseder diam nonummy.</p>
+                        <p>Living a healthier life might seem like a tall order — the nutrition, the exercise, the inner happiness.</p>
                         <p><i className="fas fa-map-marker-alt"></i> Banglabazar, Noakhali</p>
                         <p><i className="fas fa-phone"></i> any question: 01812-435207</p>
                         <p><i className="fas fa-envelope"></i> mojumdarnb@gmail.com</p>
