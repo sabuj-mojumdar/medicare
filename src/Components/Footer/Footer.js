@@ -7,13 +7,13 @@ const Footer = () => {
     return (
         <div className="bg-dark">
             <Container className="text-white text-start p-3">
-                <Row lg={4} className="border border-top-0 border-start-0 border-end-0">
+                <Row md={3} lg={4} sm={2} className="border border-top-0 border-start-0 border-end-0">
                     <Col>
-                        <Link to="/" className="logo fs-3 fw-bold text-white text-decoration-none border border-1 p-1">Medicare Hospital</Link>
+                        <Link to="/" className="footer-logo fs-3 fw-bold text-white text-decoration-none p-1">Medicare Hospital</Link>
                         <p>We are ipsum dolor sit amet aeeatt consectetuer adipiscing elitseder diam nonummy.</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Banglabazar, Noakhali</p>
-                        <p><i class="fas fa-phone"></i> any question: 01812-435207</p>
-                        <p><i class="fas fa-envelope"></i> mojumdarnb@gmail.com</p>
+                        <p><i className="fas fa-map-marker-alt"></i> Banglabazar, Noakhali</p>
+                        <p><i className="fas fa-phone"></i> any question: 01812-435207</p>
+                        <p><i className="fas fa-envelope"></i> mojumdarnb@gmail.com</p>
                     </Col>
                     <Col>
                         <h3>Departments</h3>
@@ -37,20 +37,16 @@ const Footer = () => {
                         <h3>Opening Hours</h3>
                         <div className="underline">   </div>
                         <Row lg={2}>
-                            <Col>Monday</Col>
-                            <Col>09:00  - 10.00 </Col>
-                            <Col>Tuesday</Col>
-                            <Col>09:00  - 10.00 </Col>
-                            <Col>Wednesday</Col>
-                            <Col>09:00  - 10.00 </Col>
-                            <Col>Thursday</Col>
-                            <Col>09:00  - 10.00 </Col>
-                            <Col>Friday</Col>
-                            <Col>09:00  - 10.00 </Col>
-                            <Col>Saturday</Col>
-                            <Col>Closed</Col>
-                            <Col>Sunday</Col>
-                            <Col>Closed</Col>
+                            <Col md={6}>Monday</Col>
+                            <Col md={6}>09:00  - 10.00 </Col>
+                            <Col md={6}>Tuesday</Col>
+                            <Col md={6}>09:00  - 10.00 </Col>
+                            <Col md={6}>Wednesday</Col>
+                            <Col md={6}>09:00  - 10.00 </Col>
+                            <Col md={6}>Thursday</Col>
+                            <Col md={6}>09:00  - 10.00 </Col>
+                            <Col md={6}>Friday</Col>
+                            <Col md={6}>09:00  - 10.00 </Col>
                         </Row>
                     </Col>
                 </Row>
@@ -58,11 +54,11 @@ const Footer = () => {
                     <Col lg={6}>
                         <h4>Follow Us:  </h4>
                         <div>
-                            <i class="fab fa-facebook btn-success p-2 rounded-circle mx-2"></i>
-                            <i class="fab fa-youtube btn-success p-2 rounded-circle me-2"></i>
-                            <i class="fab fa-instagram btn-success p-2 rounded-circle me-2"></i>
-                            <i class="fab fa-twitter btn-success p-2 rounded-circle me-2"></i>
-                            <i class="fab fa-linkedin p-2 btn-success rounded-circle me-2"></i>
+                            <i className="fab fa-facebook btn-success p-2 rounded-circle mx-2"></i>
+                            <i className="fab fa-youtube btn-success p-2 rounded-circle me-2"></i>
+                            <i className="fab fa-instagram btn-success p-2 rounded-circle me-2"></i>
+                            <i className="fab fa-twitter btn-success p-2 rounded-circle me-2"></i>
+                            <i className="fab fa-linkedin p-2 btn-success rounded-circle me-2"></i>
                         </div>
                     </Col>
                     <Col lg={6}>

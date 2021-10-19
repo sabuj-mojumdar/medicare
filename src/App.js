@@ -6,7 +6,6 @@ import AllMedicines from './Pages/AllMedicines/AllMedicines';
 import MenuBar from './Components/MenuBar/MenuBar';
 import PageNotFound from './Pages/PageNotFound/PageNotFound';
 import OnlineDoctor from './Pages/OnlineDoctor/OnlineDoctor';
-import HelpLine from './Pages/HelpLine/HelpLine';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import TopHeader from './Components/TopHeader/TopHeader';
@@ -14,6 +13,10 @@ import Footer from './Components/Footer/Footer';
 import AuthProvider from './Components/Context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Service from './Pages/Home/Services/Service/Service';
+import SingleService from './Pages/SingleService/SingleService';
+import Blogs from './Pages/Home/Blogs/Blogs';
+import AllServices from './Pages/AllServices/AllServices';
+import SingleBlog from './Pages/SingleBlog/SingleBlog';
 
 
 function App() {
@@ -36,11 +39,20 @@ function App() {
             <PrivateRoute path="/service/:serviceTitle">
               <Service />
             </PrivateRoute>
-            <PrivateRoute path="/onlinedoctor">
+            <Route path="/onlinedoctor">
               <OnlineDoctor />
+            </Route>
+            <Route path="/allservices">
+              <AllServices />
+            </Route>
+            <PrivateRoute path="/single_service">
+              <SingleService />
             </PrivateRoute>
-            <PrivateRoute path="/helpline">
-              <HelpLine />
+            <PrivateRoute path="/single_blog">
+              <SingleBlog />
+            </PrivateRoute>
+            <PrivateRoute path="/blogs">
+              <Blogs />
             </PrivateRoute>
             <Route path="/login">
               <Login />

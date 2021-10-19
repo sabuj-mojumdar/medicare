@@ -3,3 +3,9 @@
     height: 5px;
     background-color: white;
 }
+.footer-logo{
+    font-size: 20px !important;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    background-color: rgb(54, 55, 56);
+}

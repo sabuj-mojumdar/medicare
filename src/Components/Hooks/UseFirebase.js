@@ -1,29 +1,36 @@
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, FacebookAuthProvider } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
 import FirebaseInitialize from "../Firebase/Firebase.init";
 FirebaseInitialize();
 const useFirebase = () => {
+
     const auth = getAuth();
+
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
 
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleEmailChange = e => {
+        setEmail(e.target.value);
+    }
+    const handlePasswordChange = e => {
+        setPassword(e.target.value);
+
+    }
+    const handleRegistration = e => {
+        console.log(email, password);
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                console.log(result.user);
+            })
+        e.preventDefault();
+    }
+
     const signInWithGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
-            }).catch(error => {
-                setError(error.message);
-            });
-    }
-    const signInWithFacebook = () => {
-        const facebookProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, facebookProvider)
-            .then(result => {
-                setUser(result.user);
-            }).catch(error => {
-                setError(error.message);
-            });
+        return signInWithPopup(auth, googleProvider)
     }
     useEffect(() => {
         const unsubcribe = onAuthStateChanged(auth, user => {
@@ -46,8 +53,10 @@ const useFirebase = () => {
     }
     return {
         signInWithGoogle,
-        signInWithFacebook,
         handleSignOut,
+        handlePasswordChange,
+        handleEmailChange,
+        handleRegistration,
         error,
         user,
     }

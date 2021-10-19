@@ -13,7 +13,9 @@ const OCTMedicineSection = () => {
     }, []);
     return (
         <Container>
-            <Row lg={4} className="g-3">
+            <h1 className="my-3">Some diseases</h1>
+            <div className="sectionLine mb-4"></div>
+            <Row sm={2} lg={4} md={3} className="g-3">
                 {
                     octMedicine.map(medicine =>
                         <OCTMedicines

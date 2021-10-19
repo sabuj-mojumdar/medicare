@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import Service from './Service/Service';
+import Service from '../../Pages/Home/Services/Service/Service';
 
-const Services = () => {
+const AllServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch("./services.json")
@@ -12,7 +12,6 @@ const Services = () => {
     return (
         <Container>
             <h1 className="mt-3">Our Medical Services</h1>
-            <div className="sectionLine mb-4"></div>
             <Row sm={2} md={3} lg={5} >
                 {
                     services.map(service =>
@@ -27,4 +26,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default AllServices;

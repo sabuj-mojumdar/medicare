@@ -1,0 +1,44 @@
+@media screen and (max-width: 770px){
+    .top-header{
+        display: none;
+    }
+    .menu{
+        display: block !important;
+    }
+    .menuItem{
+        font-weight: bold; 
+        border-bottom: 1px solid rgba(0,0,0,0.4);
+        color: black;
+    }
+    .menuBtn{
+        display: block !important;
+    }
+    .signIn, .signout{
+        margin-top: 10px;
+        width: 100%;
+
+    }
+    .hero-caption p{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px){
+    .hero-caption{
+        width: 50% !important;
+        left: 0;
+        top: 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    .hero-caption{
+        width: 100% !important;
+    }
+    .hero-caption h2{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .hero-caption button {
+        width: 100% !important;
+
+    }
+}

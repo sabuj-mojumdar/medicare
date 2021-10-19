@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Form, Nav, Navbar, Row } from 'react-bootstrap';
+import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../Components/useAuth/useAuth';
 import "./menubar.css";
@@ -9,7 +9,11 @@ const MenuBar = () => {
     return (
         <Navbar bg="light" expand="lg" className="menubar">
             <Container>
-                <Link to="/" className="logo fs-2 fw-bold"><span className="medi">Medi</span><span className="care">care</span> <span className="hospital">Hospital</span></Link>
+                <Link to="/" className="logo fs-2 fw-bold">
+                    <span className="medi">Medi</span>
+                    <span className="care">care</span>
+                    <span className="hospital">Hospital</span>
+                </Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -22,22 +26,28 @@ const MenuBar = () => {
                                 <NavLink to="/home" className="menuItem" activeClassName="selected">Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/allmedicine" className="menuItem" activeClassName="selected">All Medicine</NavLink>
+                                <NavLink to="/allservices" className="menuItem" activeClassName="selected">AllServices</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/blogs" className="menuItem" activeClassName="selected">All Blogs</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/onlinedoctor" className="menuItem" activeClassName="selected">Online Doctor</NavLink>
                             </li>
-                            <li>
-                                <NavLink to="/helpline" className="menuItem" activeClassName="selected">24/7 Help Line</NavLink>
-                            </li>
                         </ul>
 
                     </Nav>
-                    <Form className="d-flex">
+                    <Form className="d-flex menuBtn">
                         {
                             user.displayName && <span className="my-auto me-2">Hi, <span className="fw-bold">{user.displayName}</span> </span>}
                         {
-                            user.displayName ? <Button onClick={handleSignOut} className="btn-primary signout"><Link to="/"><i class="fas fa-sign-out-alt"></i> SignOut</Link></Button> : <div><Button className="btn-success signIn me-2"><Link to="/login"><i class="fas fa-sign-in-alt"></i> SignIn</Link></Button><Button onClick={handleSignOut} className="btn-primary signout"><Link to="/register"><i class="fas fa-sign-out-alt"></i> Register</Link></Button></div>
+                            user.displayName ?
+                                <Button onClick={handleSignOut} className="btn-primary signout">
+                                    <Link to="/"><i className="fas fa-sign-out-alt"></i> SignOut</Link>
+                                </Button> :
+                                <div>
+                                    <Button className="btn-success signIn me-2">
+                                        <Link to="/login"><i className="fas fa-sign-in-alt"></i> SignIn</Link></Button><Button onClick={handleSignOut} className="btn-primary signout"><Link to="/register"><i className="fas fa-sign-out-alt"></i> Register</Link></Button></div>
                         }
                     </Form>
                 </Navbar.Collapse>

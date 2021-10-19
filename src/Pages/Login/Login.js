@@ -1,12 +1,21 @@
 import React from 'react';
 import { Button, Col, Container, Form, FormControl, Row } from 'react-bootstrap';
-import { useLocation, useHistory, Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Components/useAuth/useAuth';
 
 const Login = () => {
-    const { user, signInWithGoogle, signInWithFacebook } = useAuth();
+    const { signInWithGoogle } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_url = location.state?.from || "/";
 
+    const handleGoogleLogin = () => {
+        signInWithGoogle()
+            .then(result => {
+                history.push(redirect_url);
+            })
 
+    }
     return (
         <Container className="my-4">
             <Row>
@@ -38,20 +47,19 @@ const Login = () => {
                         </Row>
                         <Row className="m-3">
                             <Col>
-                                <Button variant="outline-success" className="w-100"><i class="fas fa-sign-in-alt"></i> Login</Button>
+                                <Button variant="outline-success" className="w-100"><i className="fas fa-sign-in-alt"></i> Login</Button>
                             </Col>
                             <Col>
                                 <Link to="/register">
                                     <Button variant="outline-primary" className=" w-100">
-                                        <i class="fas fa-sign-out-alt"></i> Register</Button>
+                                        <i className="fas fa-sign-out-alt"></i> Register</Button>
                                 </Link>
                             </Col>
                         </Row>
-                        <Row className="m-3">
-                            <Button className="btn-danger mb-2" onClick={signInWithGoogle}>Google SignIn</Button>
-                            <Button className="btn-Primary" onClick={signInWithFacebook}>FaceBook SignIn</Button>
-                        </Row>
                     </Form>
+                    <Row className="m-3">
+                        <Button className="btn-danger mb-2" onClick={handleGoogleLogin}>Google SignIn</Button>
+                    </Row>
                 </Col>
                 <Col lg={3}></Col>
             </Row>
