@@ -1,21 +1,16 @@
 import React from 'react';
 import { Button, Col, Container, Form, FormControl, Row } from 'react-bootstrap';
-import { Link, useLocation, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import useAuth from '../../Components/useAuth/useAuth';
 
 const Register = () => {
     const { handlePasswordChange, handleEmailChange, handleRegistration, passwordError, handleNameChange } = useAuth();
-    const location = useLocation();
-    const history = useHistory();
-    const redirect_url = location.state?.from || "/";
+
 
     const handleRegister = (e) => {
-        handleRegistration(e)
+        e.preventDefault();
+        handleRegistration()
 
-            .then(result => {
-                console.log(result.user);
-                history.push(redirect_url);
-            })
     }
     return (
         <div>

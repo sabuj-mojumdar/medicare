@@ -4,6 +4,7 @@ import FirebaseInitialize from "../Firebase/Firebase.init";
 FirebaseInitialize();
 const useFirebase = () => {
 
+
     const auth = getAuth();
 
     const [user, setUser] = useState({});
@@ -25,28 +26,27 @@ const useFirebase = () => {
 
     }
 
-    const updateProfileName = (details) => {
-        updateProfile(auth.currentUser, { displayName: "username" })
-            .then(result => { setUserName({ ...details, displayName: "username" }) });
+    const updateProfileName = () => {
+        updateProfile(auth.currentUser, { displayName: userName })
+            .then(result => {
+            })
     }
-
-
-
-    const handleRegistration = (e) => {
-        e.preventDefault();
-        console.log(email, password);
+    const handleRegistration = () => {
         if (password.length < 5) {
             setPasswordError('Password must be greater than 5 charecter');
             return;
         }
-        updateProfileName();
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                const info = { ...result.user, displayName: userName }
+                setUser(info)
+                updateProfileName();
+            })
 
-        return createUserWithEmailAndPassword(auth, email, password)
     }
 
     const handleLogin = e => {
         e.preventDefault();
-        console.log(email, password);
         return signInWithEmailAndPassword(auth, email, password)
     }
 
@@ -81,6 +81,7 @@ const useFirebase = () => {
         handleRegistration,
         handleLogin,
         handleNameChange,
+        updateProfileName,
         passwordError,
         error,
         user,
