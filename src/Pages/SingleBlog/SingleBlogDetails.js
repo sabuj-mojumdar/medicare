@@ -5,7 +5,7 @@ import BlogDetails from './BlogDetails';
 
 const SingleBlogDetails = (props) => {
     const blogs = UseBlogs();
-    const { blogtitle, description, img } = props.data;
+    const { blogtitle, description, img, date, user } = props.data;
     return (
         <Container fluid className="text-start">
             <Row>
@@ -32,6 +32,8 @@ const SingleBlogDetails = (props) => {
                                     <img src={img} className="titleImg" alt="" />
                                     <h1 className="text-center">{blogtitle}</h1>
                                     <div className="sectionLine mb-4"></div>
+                                    <span>Author: <span className="fw-bold">{user}</span></span><br />
+                                    <span>{date}</span>
                                     <p className="justify">{description}</p>
                                 </div>
                             ))
