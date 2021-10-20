@@ -39,9 +39,14 @@ const MenuBar = () => {
                     </Nav>
                     <Form className="d-flex menuBtn">
                         {
-                            user.displayName && <span className="my-auto me-2">Hi, <span className="fw-bold">{user.displayName}</span> </span>}
+                            user.email &&
+                            <span className="my-auto me-2">Hi,
+                                <span className="fw-bold">
+                                    {user.displayName}
+                                </span>
+                            </span>}
                         {
-                            user.displayName ?
+                            user.email ?
                                 <Button onClick={handleSignOut} className="btn-primary signout">
                                     <Link to="/"><i className="fas fa-sign-out-alt"></i> SignOut</Link>
                                 </Button> :

@@ -4,7 +4,7 @@ import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Components/useAuth/useAuth';
 
 const Login = () => {
-    const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle, handlePasswordChange, handleEmailChange, handleLogin } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_url = location.state?.from || "/";
@@ -16,12 +16,21 @@ const Login = () => {
             })
 
     }
+
+    const handleCustomLogin = (e) => {
+        handleLogin(e)
+            .then(result => {
+                console.log(result.user);
+                history.push(redirect_url);
+            })
+
+    }
     return (
         <Container className="my-4">
             <Row>
                 <Col lg={3}></Col>
                 <Col lg={6}>
-                    <Form className="form-control m-3">
+                    <Form onSubmit={handleCustomLogin} className="form-control m-3">
                         <h1>Login Form</h1>
                         <Row className="mb-2">
                             <Col lg={3} className="text-start my-auto">
@@ -29,6 +38,7 @@ const Login = () => {
                             </Col>
                             <Col lg={9}>
                                 <FormControl
+                                    onBlur={handleEmailChange}
                                     type="email"
                                     placeholder="Enter your Email"
                                     className="me-2"
@@ -40,6 +50,7 @@ const Login = () => {
                             </Col>
                             <Col lg={9}>
                                 <FormControl
+                                    onBlur={handlePasswordChange}
                                     type="password"
                                     placeholder="Enter your Password"
                                     className="me-2"
@@ -47,7 +58,11 @@ const Login = () => {
                         </Row>
                         <Row className="m-3">
                             <Col>
-                                <Button variant="outline-success" className="w-100"><i className="fas fa-sign-in-alt"></i> Login</Button>
+                                <Button variant="outline-primary" className=" w-100 bgbtn">
+                                    <i className="fas fa-sign-out-alt"></i>
+                                    <input type="submit" value="login" className="border-0 bg" />
+                                </Button>
+                                {/* <Button variant="outline-success" className="w-100"><i className="fas fa-sign-in-alt"></i> Login</Button> */}
                             </Col>
                             <Col>
                                 <Link to="/register">
