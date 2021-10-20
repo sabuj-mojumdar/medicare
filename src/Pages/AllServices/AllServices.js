@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import UseServices from '../../Components/Hooks/UseServices';
 import Service from '../../Pages/Home/Services/Service/Service';
 
 const AllServices = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch("https://sabuj-mojumdar.github.io/fakeapidata/services.json")
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, []);
+    const services = UseServices();
     return (
         <Container>
             <h1 className="mt-3">Our Medical Services</h1>

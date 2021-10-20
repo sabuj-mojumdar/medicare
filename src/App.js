@@ -41,10 +41,10 @@ function App() {
             <Route path="/allservices">
               <AllServices />
             </Route>
-            <PrivateRoute path="/single_service">
+            <PrivateRoute path="/service/:title">
               <SingleService />
             </PrivateRoute>
-            <PrivateRoute path="/single_blog">
+            <PrivateRoute path="/blog/:blogtitle">
               <SingleBlog />
             </PrivateRoute>
             <Route path="/blogs">

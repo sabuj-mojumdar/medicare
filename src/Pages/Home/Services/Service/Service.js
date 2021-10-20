@@ -7,7 +7,6 @@ import "./service.css";
 const Service = (props) => {
     const { title, description, img } = props.service;
 
-
     return (
         <Col className="p-3">
             <Card className="p-2">
@@ -19,7 +18,7 @@ const Service = (props) => {
                     <Card.Text>
                         {description.slice(0, 30)}...
                     </Card.Text>
-                    <Link to="/single_service" className="text-decoration-none" >Read More <i className="fas fa-angle-double-right"></i></Link>
+                    <Link to={`/service/${title}`} className="text-decoration-none" >Read More <i className="fas fa-angle-double-right"></i></Link>
                 </Card.Body>
             </Card>
         </Col>

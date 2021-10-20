@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import UseBlogs from '../../../Components/Hooks/UseBlogs';
 import Blog from '../BlogSection/Blog';
 
 const Blogs = () => {
-    const [blogs, setBlogs] = useState([]);
-    useEffect(() => {
-        fetch("./blogs.json")
-            .then(res => res.json())
-            .then(data => setBlogs(data));
-    })
+    const blogs = UseBlogs();
     return (
         <Container className="mt-4">
             <section className="blogSection">

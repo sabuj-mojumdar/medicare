@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import UseBlogs from '../../../Components/Hooks/UseBlogs';
 import Blog from './Blog';
 import "./blogSection.css";
 
 const BlogSection = () => {
-    const [blogs, setBlogs] = useState([]);
-    useEffect(() => {
-        fetch("./blogs.json")
-            .then(res => res.json())
-            .then(data => setBlogs(data));
-    });
+    const blogs = UseBlogs();
     const sliceBlogs = blogs.slice(0, 6);
     return (
         <Container className="mt-4">
