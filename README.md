@@ -10,3 +10,5 @@ Open [Medicare Website](https://sabuj-pgdit-assaignment-10.netlify.app/)
 - Also user can read blogs for knowledge about diseases.
 - User can communicate our expert doctor.
 - Any Doctor will create his own profile.
+
+![name-of-you-image](https://raw.githubusercontent.com/sabuj-mojumdar/travel-stock/main/src/images/Screenshot_16.png)
