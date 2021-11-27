@@ -1,15 +1,16 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Medicine = (props) => {
-    const { name, type, company, price, prevPrice, img } = props.medicine;
+    const { categoryName, categoryImg } = props.medicine;
     return (
         <Col>
             <Card>
-                <Card.Img src={img} />
+                <Card.Img src={categoryImg} />
                 <Card.Body>
                     <Card.Title>
-                        {name}
+                        <Link to={`/otcmedicines/${categoryName}`}>{categoryName}</Link>
                     </Card.Title>
                 </Card.Body>
             </Card>

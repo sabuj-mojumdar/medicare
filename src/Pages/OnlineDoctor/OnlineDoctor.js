@@ -11,7 +11,7 @@ const OnlineDoctor = () => {
                 <Col>
                     <img src={img} alt="" /></Col>
                 <Col className=" my-auto">
-                    <h1 className="bg-primary text-white p-2 rounded-3">Call Us: 01812-435207</h1>
+                    <h1 className="bg-primary text-white p-2 rounded-3">Call Us: 01234-567890</h1>
                 </Col>
             </Row>
         </Container>

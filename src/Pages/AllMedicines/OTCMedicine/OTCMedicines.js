@@ -5,7 +5,7 @@ import Medicine from './Medicine';
 const OTCMedicines = () => {
     const [medicines, setMedicines] = useState([]);
     useEffect(() => {
-        fetch("./medicine.json")
+        fetch("http://localhost:5000/categories")
             .then(res => res.json())
             .then(data => setMedicines(data));
     }, []);

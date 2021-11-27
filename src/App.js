@@ -16,6 +16,11 @@ import SingleService from './Pages/SingleService/SingleService';
 import Blogs from './Pages/Home/Blogs/Blogs';
 import AllServices from './Pages/AllServices/AllServices';
 import SingleBlog from './Pages/SingleBlog/SingleBlog';
+import AddMedicine from './Pages/AllMedicines/OTCMedicine/AddMedicine';
+import AddCategory from './Pages/AllMedicines/OTCMedicine/AddCategory';
+import OTCMedicines from './Pages/AllMedicines/OTCMedicine/OTCMedicines';
+import CategoryDetails from './Pages/AllMedicines/OTCMedicine/Category/CategoryDetails';
+import AddDisease from './Pages/AllMedicines/OTCMedicine/AddDisease';
 
 
 function App() {
@@ -31,6 +36,21 @@ function App() {
             </Route>
             <Route exact path="/home">
               <Home />
+            </Route>
+            <Route exact path="/addmedicine">
+              <AddMedicine />
+            </Route>
+            <Route exact path="/addcategory">
+              <AddCategory />
+            </Route>
+            <Route exact path="/adddisease">
+              <AddDisease />
+            </Route>
+            <Route exact path="/otcmedicines">
+              <OTCMedicines />
+            </Route>
+            <Route exact path="/otcmedicines/:categoryName">
+              <CategoryDetails />
             </Route>
             <PrivateRoute path="/allmedicine">
               <AllMedicines />

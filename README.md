@@ -2,12 +2,11 @@
 Open [Medicare Website](https://sabuj-pgdit-assaignment-10.netlify.app/) 
 
 
-### We Provide best Services In Bangladesh
+### The website have many features included such as.
 
-- Eye Care
-- Medicine cosultent facility
-- Cardiology facility
-- Orthopedic facility
-- Dental Clinic facility
-
-### We Provide you online doctor service You can call any time any problem.
+- This is a web application, has firebase authentication method.
+- Users can buy medicine and can see all medicine details.
+- Users will know about medicine details such company name, uses etc.
+- Also user can read blogs for knowledge about diseases.
+- User can communicate our expert doctor.
+- Any Doctor will create his own profile.

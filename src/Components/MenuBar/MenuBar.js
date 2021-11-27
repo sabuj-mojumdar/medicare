@@ -26,6 +26,18 @@ const MenuBar = () => {
                                 <NavLink to="/home" className="menuItem" activeClassName="selected">Home</NavLink>
                             </li>
                             <li>
+                                <NavLink to="/otcmedicines" className="menuItem" activeClassName="selected">OTCMedicine</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/addmedicine" className="menuItem" activeClassName="selected">AddMedicine</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/addcategory" className="menuItem" activeClassName="selected">Add Category</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/adddisease" className="menuItem" activeClassName="selected">Add Diseases</NavLink>
+                            </li>
+                            <li>
                                 <NavLink to="/allservices" className="menuItem" activeClassName="selected">AllServices</NavLink>
                             </li>
                             <li>
